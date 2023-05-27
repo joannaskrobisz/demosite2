@@ -1,0 +1,1 @@
+2023/05/26 01:04:51 [error] 57911#0: *25096 access forbidden by rule, client: 127.0.0.1, server: , request: "GET /wp-content/uploads/code-execution.php HTTP/1.0", host: "demosite2.local"

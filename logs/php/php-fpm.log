@@ -1,0 +1,586 @@
+[25-May-2023 16:43:53] NOTICE: fpm is running, pid 57904
+[25-May-2023 16:43:53] NOTICE: ready to handle connections
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "*   Trying [::1]:80..."
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "* Connected to demosite2.local (::1) port 80 (#0)"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "> GET / HTTP/1.1"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "Host: demosite2.local"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "Accept: */*"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: ""
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "* Mark bundle as not supporting multiuse"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< HTTP/1.1 200 OK"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Server: nginx/1.16.0"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Date: Fri, 26 May 2023 06:04:52 GMT"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Content-Type: text/html; charset=UTF-8"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Transfer-Encoding: chunked"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Connection: keep-alive"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Vary: Accept-Encoding"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Vary: Accept-Encoding"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< X-Powered-By: PHP/8.1.9"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Link: <http://demosite2.local/wp-json/>; rel="https://api.w.org/""
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Link: <http://demosite2.local/wp-json/wp/v2/pages/540>; rel="alternate"; type="application/json""
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Link: <http://demosite2.local/>; rel=shortlink"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< "
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "* Excess found: excess = 15930 url = / (zero-length body)"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "* Connection #0 to host demosite2.local left intact"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "*   Trying [::1]:80..."
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "* Connected to demosite2.local (::1) port 80 (#0)"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "> POST / HTTP/1.1"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "Host: demosite2.local"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "Accept: */*"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: ""
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "* Mark bundle as not supporting multiuse"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< HTTP/1.1 200 OK"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Server: nginx/1.16.0"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Date: Fri, 26 May 2023 06:04:52 GMT"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Content-Type: text/html; charset=UTF-8"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Transfer-Encoding: chunked"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Connection: keep-alive"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Vary: Accept-Encoding"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Vary: Accept-Encoding"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< X-Powered-By: PHP/8.1.9"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Link: <http://demosite2.local/wp-json/>; rel="https://api.w.org/""
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Link: <http://demosite2.local/wp-json/wp/v2/pages/540>; rel="alternate"; type="application/json""
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Link: <http://demosite2.local/>; rel=shortlink"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< "
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "* Excess found: excess = 15930 url = / (zero-length body)"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "* Connection #0 to host demosite2.local left intact"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "*   Trying [::1]:80..."
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "* Connected to demosite2.local (::1) port 80 (#0)"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "> PUT / HTTP/1.1"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "Host: demosite2.local"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "Accept: */*"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: ""
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "* Mark bundle as not supporting multiuse"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< HTTP/1.1 405 Not Allowed"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Server: nginx/1.16.0"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Date: Fri, 26 May 2023 06:04:52 GMT"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Content-Type: text/html"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Content-Length: 157"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Connection: keep-alive"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< "
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "* Connection #0 to host demosite2.local left intact"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "*   Trying [::1]:80..."
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "* Connected to demosite2.local (::1) port 80 (#0)"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "> DELETE / HTTP/1.1"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "Host: demosite2.local"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "Accept: */*"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: ""
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "* Mark bundle as not supporting multiuse"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< HTTP/1.1 405 Not Allowed"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Server: nginx/1.16.0"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Date: Fri, 26 May 2023 06:04:52 GMT"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Content-Type: text/html"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Content-Length: 157"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< Connection: keep-alive"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "< "
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[26-May-2023 01:04:52] WARNING: [pool www] child 57909 said into stderr: "* Connection #0 to host demosite2.local left intact"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*   Trying [::1]:443..."
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*   Trying 127.0.0.1:443..."
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Connected to demosite2.local (127.0.0.1) port 443 (#0)"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* ALPN: offers h2"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* ALPN: offers http/1.1"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* ALPN: server accepted h2"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Server certificate:"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*  subject: CN=demosite2.local; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*  start date: May 25 21:43:49 2023 GMT"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*  expire date: May 25 21:43:49 2033 GMT"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*  subjectAltName: host "demosite2.local" matched cert's "demosite2.local""
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*  issuer: CN=demosite2.local; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Using HTTP2, server supports multiplexing"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:method: HEAD]"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:path: /]"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:scheme: https]"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:authority: demosite2.local]"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [accept: */*]"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Using Stream ID: 1 (easy handle 0x105026400)"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "> HEAD / HTTP/2"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "Host: demosite2.local"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "accept: */*"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: ""
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< HTTP/2 200 "
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< server: nginx/1.16.0"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< date: Fri, 26 May 2023 06:15:30 GMT"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< content-type: text/html; charset=UTF-8"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< vary: Accept-Encoding"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< vary: Accept-Encoding"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< x-powered-by: PHP/8.1.9"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< link: <https://demosite2.local/wp-json/>; rel="https://api.w.org/""
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< link: <https://demosite2.local/wp-json/wp/v2/pages/540>; rel="alternate"; type="application/json""
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< link: <https://demosite2.local/>; rel=shortlink"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< "
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Connection #0 to host demosite2.local left intact"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*   Trying [::1]:443..."
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*   Trying 127.0.0.1:443..."
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Connected to demosite2.local (127.0.0.1) port 443 (#0)"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* ALPN: offers h2"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* ALPN: offers http/1.1"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* ALPN: server accepted h2"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Server certificate:"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*  subject: CN=demosite2.local; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*  start date: May 25 21:43:49 2023 GMT"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*  expire date: May 25 21:43:49 2033 GMT"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*  subjectAltName: host "demosite2.local" matched cert's "demosite2.local""
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*  issuer: CN=demosite2.local; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Using HTTP2, server supports multiplexing"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:method: OPTIONS]"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:path: /]"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:scheme: https]"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:authority: demosite2.local]"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [accept: */*]"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Using Stream ID: 1 (easy handle 0x12600a600)"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "> OPTIONS / HTTP/2"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "Host: demosite2.local"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "accept: */*"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: ""
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< HTTP/2 405 "
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< server: nginx/1.16.0"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< date: Fri, 26 May 2023 06:15:30 GMT"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< content-type: text/html"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< content-length: 157"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< "
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Connection #0 to host demosite2.local left intact"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*   Trying [::1]:443..."
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*   Trying 127.0.0.1:443..."
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Connected to demosite2.local (127.0.0.1) port 443 (#0)"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* ALPN: offers h2"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* ALPN: offers http/1.1"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* ALPN: server accepted h2"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Server certificate:"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*  subject: CN=demosite2.local; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*  start date: May 25 21:43:49 2023 GMT"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*  expire date: May 25 21:43:49 2033 GMT"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*  subjectAltName: host "demosite2.local" matched cert's "demosite2.local""
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*  issuer: CN=demosite2.local; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Using HTTP2, server supports multiplexing"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:method: CONNECT]"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:path: /]"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:scheme: https]"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:authority: demosite2.local]"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [accept: */*]"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Using Stream ID: 1 (easy handle 0x126039800)"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "> CONNECT / HTTP/2"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "Host: demosite2.local"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "accept: */*"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: ""
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< HTTP/2 405 "
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< server: nginx/1.16.0"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< date: Fri, 26 May 2023 06:15:30 GMT"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< content-type: text/html"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< content-length: 157"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< "
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Connection #0 to host demosite2.local left intact"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*   Trying [::1]:443..."
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*   Trying 127.0.0.1:443..."
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Connected to demosite2.local (127.0.0.1) port 443 (#0)"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* ALPN: offers h2"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* ALPN: offers http/1.1"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* ALPN: server accepted h2"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Server certificate:"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*  subject: CN=demosite2.local; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*  start date: May 25 21:43:49 2023 GMT"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*  expire date: May 25 21:43:49 2033 GMT"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*  subjectAltName: host "demosite2.local" matched cert's "demosite2.local""
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*  issuer: CN=demosite2.local; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Using HTTP2, server supports multiplexing"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:method: TRACE]"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:path: /]"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:scheme: https]"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:authority: demosite2.local]"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [accept: */*]"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Using Stream ID: 1 (easy handle 0x123811e00)"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "> TRACE / HTTP/2"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "Host: demosite2.local"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "accept: */*"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: ""
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< HTTP/2 405 "
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< server: nginx/1.16.0"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< date: Fri, 26 May 2023 06:15:30 GMT"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< content-type: text/html"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< content-length: 157"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "< "
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[26-May-2023 01:15:30] WARNING: [pool www] child 57910 said into stderr: "* Connection #0 to host demosite2.local left intact"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*   Trying [::1]:443..."
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*   Trying 127.0.0.1:443..."
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Connected to demosite2.local (127.0.0.1) port 443 (#0)"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* ALPN: offers h2"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* ALPN: offers http/1.1"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* ALPN: server accepted h2"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Server certificate:"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*  subject: CN=demosite2.local; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*  start date: May 25 21:43:49 2023 GMT"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*  expire date: May 25 21:43:49 2033 GMT"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*  subjectAltName: host "demosite2.local" matched cert's "demosite2.local""
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*  issuer: CN=demosite2.local; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Using HTTP2, server supports multiplexing"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [:method: TRACK]"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [:path: /]"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [:scheme: https]"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [:authority: demosite2.local]"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [accept: */*]"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Using Stream ID: 1 (easy handle 0x123011400)"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "> TRACK / HTTP/2"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "Host: demosite2.local"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "accept: */*"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: ""
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "< HTTP/2 405 "
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "< server: nginx/1.16.0"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "< date: Fri, 26 May 2023 06:22:02 GMT"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "< content-type: text/html"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "< content-length: 157"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "< "
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Connection #0 to host demosite2.local left intact"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*   Trying [::1]:443..."
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*   Trying 127.0.0.1:443..."
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Connected to demosite2.local (127.0.0.1) port 443 (#0)"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* ALPN: offers h2"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* ALPN: offers http/1.1"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* ALPN: server accepted h2"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Server certificate:"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*  subject: CN=demosite2.local; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*  start date: May 25 21:43:49 2023 GMT"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*  expire date: May 25 21:43:49 2033 GMT"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*  subjectAltName: host "demosite2.local" matched cert's "demosite2.local""
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*  issuer: CN=demosite2.local; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Using HTTP2, server supports multiplexing"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [:method: PATCH]"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [:path: /]"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [:scheme: https]"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [:authority: demosite2.local]"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [accept: */*]"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Using Stream ID: 1 (easy handle 0x124811e00)"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "> PATCH / HTTP/2"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "Host: demosite2.local"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "accept: */*"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: ""
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "< HTTP/2 405 "
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "< server: nginx/1.16.0"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "< date: Fri, 26 May 2023 06:22:02 GMT"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "< content-type: text/html"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "< content-length: 157"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "< "
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Connection #0 to host demosite2.local left intact"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*   Trying [::1]:443..."
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*   Trying 127.0.0.1:443..."
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Connected to demosite2.local (127.0.0.1) port 443 (#0)"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* ALPN: offers h2"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* ALPN: offers http/1.1"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* ALPN: server accepted h2"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Server certificate:"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*  subject: CN=demosite2.local; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*  start date: May 25 21:43:49 2023 GMT"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*  expire date: May 25 21:43:49 2033 GMT"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*  subjectAltName: host "demosite2.local" matched cert's "demosite2.local""
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*  issuer: CN=demosite2.local; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Using HTTP2, server supports multiplexing"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [:method: COPY]"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [:path: /]"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [:scheme: https]"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [:authority: demosite2.local]"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [accept: */*]"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Using Stream ID: 1 (easy handle 0x126022400)"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "> COPY / HTTP/2"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "Host: demosite2.local"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "accept: */*"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: ""
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "< HTTP/2 405 "
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "< server: nginx/1.16.0"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "< date: Fri, 26 May 2023 06:22:02 GMT"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "< content-type: text/html"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "< content-length: 157"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "< "
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Connection #0 to host demosite2.local left intact"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*   Trying [::1]:443..."
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*   Trying 127.0.0.1:443..."
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Connected to demosite2.local (127.0.0.1) port 443 (#0)"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* ALPN: offers h2"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* ALPN: offers http/1.1"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* ALPN: server accepted h2"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Server certificate:"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*  subject: CN=demosite2.local; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*  start date: May 25 21:43:49 2023 GMT"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*  expire date: May 25 21:43:49 2033 GMT"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*  subjectAltName: host "demosite2.local" matched cert's "demosite2.local""
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*  issuer: CN=demosite2.local; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Using HTTP2, server supports multiplexing"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [:method: LINK]"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [:path: /]"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [:scheme: https]"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [:authority: demosite2.local]"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [accept: */*]"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Using Stream ID: 1 (easy handle 0x126027c00)"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "> LINK / HTTP/2"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "Host: demosite2.local"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "accept: */*"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: ""
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "< HTTP/2 405 "
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "< server: nginx/1.16.0"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "< date: Fri, 26 May 2023 06:22:02 GMT"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "< content-type: text/html"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "< content-length: 157"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "< "
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[26-May-2023 01:22:02] WARNING: [pool www] child 57909 said into stderr: "* Connection #0 to host demosite2.local left intact"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*   Trying [::1]:443..."
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*   Trying 127.0.0.1:443..."
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Connected to demosite2.local (127.0.0.1) port 443 (#0)"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* ALPN: offers h2"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* ALPN: offers http/1.1"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* ALPN: server accepted h2"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Server certificate:"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*  subject: CN=demosite2.local; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*  start date: May 25 21:43:49 2023 GMT"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*  expire date: May 25 21:43:49 2033 GMT"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*  subjectAltName: host "demosite2.local" matched cert's "demosite2.local""
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*  issuer: CN=demosite2.local; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Using HTTP2, server supports multiplexing"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:method: UNLINK]"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:path: /]"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:scheme: https]"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:authority: demosite2.local]"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [accept: */*]"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Using Stream ID: 1 (easy handle 0x12600a600)"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "> UNLINK / HTTP/2"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "Host: demosite2.local"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "accept: */*"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: ""
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "< HTTP/2 405 "
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "< server: nginx/1.16.0"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "< date: Fri, 26 May 2023 06:26:32 GMT"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "< content-type: text/html"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "< content-length: 157"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "< "
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Connection #0 to host demosite2.local left intact"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*   Trying [::1]:443..."
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*   Trying 127.0.0.1:443..."
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Connected to demosite2.local (127.0.0.1) port 443 (#0)"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* ALPN: offers h2"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* ALPN: offers http/1.1"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* ALPN: server accepted h2"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Server certificate:"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*  subject: CN=demosite2.local; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*  start date: May 25 21:43:49 2023 GMT"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*  expire date: May 25 21:43:49 2033 GMT"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*  subjectAltName: host "demosite2.local" matched cert's "demosite2.local""
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*  issuer: CN=demosite2.local; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Using HTTP2, server supports multiplexing"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:method: PURGE]"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:path: /]"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:scheme: https]"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:authority: demosite2.local]"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [accept: */*]"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Using Stream ID: 1 (easy handle 0x12603b400)"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "> PURGE / HTTP/2"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "Host: demosite2.local"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "accept: */*"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: ""
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "< HTTP/2 405 "
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "< server: nginx/1.16.0"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "< date: Fri, 26 May 2023 06:26:32 GMT"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "< content-type: text/html"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "< content-length: 157"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "< "
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Connection #0 to host demosite2.local left intact"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*   Trying [::1]:443..."
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*   Trying 127.0.0.1:443..."
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Connected to demosite2.local (127.0.0.1) port 443 (#0)"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* ALPN: offers h2"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* ALPN: offers http/1.1"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* ALPN: server accepted h2"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Server certificate:"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*  subject: CN=demosite2.local; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*  start date: May 25 21:43:49 2023 GMT"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*  expire date: May 25 21:43:49 2033 GMT"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*  subjectAltName: host "demosite2.local" matched cert's "demosite2.local""
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*  issuer: CN=demosite2.local; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Using HTTP2, server supports multiplexing"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:method: LOCK]"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:path: /]"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:scheme: https]"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:authority: demosite2.local]"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [accept: */*]"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Using Stream ID: 1 (easy handle 0x126038200)"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "> LOCK / HTTP/2"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "Host: demosite2.local"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "accept: */*"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: ""
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "< HTTP/2 405 "
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "< server: nginx/1.16.0"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "< date: Fri, 26 May 2023 06:26:32 GMT"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "< content-type: text/html"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "< content-length: 157"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "< "
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Connection #0 to host demosite2.local left intact"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*   Trying [::1]:443..."
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*   Trying 127.0.0.1:443..."
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Connected to demosite2.local (127.0.0.1) port 443 (#0)"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* ALPN: offers h2"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* ALPN: offers http/1.1"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* ALPN: server accepted h2"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Server certificate:"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*  subject: CN=demosite2.local; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*  start date: May 25 21:43:49 2023 GMT"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*  expire date: May 25 21:43:49 2033 GMT"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*  subjectAltName: host "demosite2.local" matched cert's "demosite2.local""
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*  issuer: CN=demosite2.local; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Using HTTP2, server supports multiplexing"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:method: UNLOCK]"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:path: /]"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:scheme: https]"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [:authority: demosite2.local]"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* h2h3 [accept: */*]"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Using Stream ID: 1 (easy handle 0x12582a000)"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "> UNLOCK / HTTP/2"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "Host: demosite2.local"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "accept: */*"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: ""
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "< HTTP/2 405 "
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "< server: nginx/1.16.0"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "< date: Fri, 26 May 2023 06:26:32 GMT"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "< content-type: text/html"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "< content-length: 157"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "< "
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[26-May-2023 01:26:32] WARNING: [pool www] child 57910 said into stderr: "* Connection #0 to host demosite2.local left intact"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "*   Trying [::1]:443..."
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "*   Trying 127.0.0.1:443..."
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* Connected to demosite2.local (127.0.0.1) port 443 (#0)"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* ALPN: offers h2"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* ALPN: offers http/1.1"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* ALPN: server accepted h2"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* Server certificate:"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "*  subject: CN=demosite2.local; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "*  start date: May 25 21:43:49 2023 GMT"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "*  expire date: May 25 21:43:49 2033 GMT"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "*  subjectAltName: host "demosite2.local" matched cert's "demosite2.local""
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "*  issuer: CN=demosite2.local; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* Using HTTP2, server supports multiplexing"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [:method: PROPFIND]"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [:path: /]"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [:scheme: https]"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [:authority: demosite2.local]"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [accept: */*]"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* Using Stream ID: 1 (easy handle 0x12600ac00)"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "> PROPFIND / HTTP/2"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "Host: demosite2.local"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "accept: */*"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: ""
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "< HTTP/2 405 "
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "< server: nginx/1.16.0"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "< date: Fri, 26 May 2023 06:29:22 GMT"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "< content-type: text/html"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "< content-length: 157"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "< "
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* Connection #0 to host demosite2.local left intact"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "*   Trying [::1]:443..."
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* connect to ::1 port 443 failed: Connection refused"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "*   Trying 127.0.0.1:443..."
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* Connected to demosite2.local (127.0.0.1) port 443 (#0)"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* ALPN: offers h2"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* ALPN: offers http/1.1"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* ALPN: server accepted h2"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* Server certificate:"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "*  subject: CN=demosite2.local; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "*  start date: May 25 21:43:49 2023 GMT"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "*  expire date: May 25 21:43:49 2033 GMT"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "*  subjectAltName: host "demosite2.local" matched cert's "demosite2.local""
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "*  issuer: CN=demosite2.local; C=XX; ST=XX; L=Fake Locality; O=Super Fake Company, Fake.; OU=Fake Organizational Unit"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "*  SSL certificate verify result: self signed certificate (18), continuing anyway."
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* Using HTTP2, server supports multiplexing"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [:method: VIEW]"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [:path: /]"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [:scheme: https]"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [:authority: demosite2.local]"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* h2h3 [accept: */*]"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* Using Stream ID: 1 (easy handle 0x123015600)"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "> VIEW / HTTP/2"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "Host: demosite2.local"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "accept: */*"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: ""
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "< HTTP/2 405 "
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "< server: nginx/1.16.0"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "< date: Fri, 26 May 2023 06:29:22 GMT"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "< content-type: text/html"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "< content-length: 157"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "< "
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* Excess found: excess = 157 url = / (zero-length body)"
+[26-May-2023 01:29:22] WARNING: [pool www] child 57909 said into stderr: "* Connection #0 to host demosite2.local left intact"
